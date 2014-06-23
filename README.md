@@ -12,8 +12,9 @@ This script will create a file and database dump of a Magento application.
 ###Usage
 
     cd /path/to/magento/
-    wget https://raw.githubusercontent.com/eyemagine/magento-backup/master/backup.sh
-    sh backup.sh
+    wget --no-check-certificate https://raw.githubusercontent.com/eyemagine/magento-backup/master/backup.sh
+    chmod +x backup.sh
+    ./backup.sh
 
 ###Credits
 
